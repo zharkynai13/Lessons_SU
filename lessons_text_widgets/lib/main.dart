@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lessons_text_widgets/botom_nav.dart';
 import 'package:lessons_text_widgets/widget.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Instagram(),
+      home: const BottomNavBar(),
     );
   }
 }

@@ -54,7 +54,36 @@ class PostContainers extends StatelessWidget {
             height: 450,
             fit: BoxFit.cover,
             image: NetworkImage(
-                "https://media.istockphoto.com/id/1420486889/photo/candid-portrait-of-young-middle-eastern-digital-native.jpg?s=2048x2048&w=is&k=20&c=9OR68bllQ7AiHzio9t82JV-m5-AgxvwwHoJnuyyyJnM="))
+                "https://media.istockphoto.com/id/1420486889/photo/candid-portrait-of-young-middle-eastern-digital-native.jpg?s=2048x2048&w=is&k=20&c=9OR68bllQ7AiHzio9t82JV-m5-AgxvwwHoJnuyyyJnM=")),
+        Row(
+          children: [
+            Container(
+              child: Row(
+                children: [
+                  IconButton(
+                    onPressed: () {},
+                    icon: const Icon(Icons.favorite_border),
+                    iconSize: 30,
+                  ),
+                  IconButton(
+                      onPressed: () {},
+                      icon: const Image(
+                        width: 33,
+                        image: NetworkImage(
+                            "https://static.thenounproject.com/png/3460458-200.png"),
+                      )),
+                  IconButton(
+                      onPressed: () {},
+                      icon: const Image(
+                        width: 25,
+                        image: NetworkImage(
+                            "https://cdn-icons-png.flaticon.com/512/2099/2099085.png"),
+                      )),
+                ],
+              ),
+            ),
+          ],
+        )
       ],
     );
   }
